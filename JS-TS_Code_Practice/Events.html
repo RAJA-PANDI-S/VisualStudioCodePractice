@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Events Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        button, input, select {
+            margin: 10px 0;
+            padding: 8px;
+        }
+
+        #box {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Events Example</h1>
+
+    <!-- Click Event -->
+    <button onclick="clickEvent()">Click Me</button>
+
+    <br>
+
+    <!-- Double Click Event -->
+    <button ondblclick="doubleClickEvent()">Double Click Me</button>
+
+    <br>
+
+    <!-- Mouse Events -->
+    <div id="box"
+         onmouseover="mouseOverEvent()"
+         onmouseout="mouseOutEvent()">
+        Hover Here
+    </div>
+
+    <br>
+
+    <!-- Keyboard Events -->
+    <input type="text"
+           placeholder="Type something"
+           onkeydown="keyDownEvent()"
+           onkeyup="keyUpEvent()">
+
+    <br>
+
+    <!-- Change Event -->
+    <select onchange="changeEvent(this)">
+        <option>Select</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+        <option>Java</option>
+    </select>
+
+    <br>
+
+    <!-- Focus and Blur -->
+    <input type="text"
+           placeholder="Focus Here"
+           onfocus="focusEvent()"
+           onblur="blurEvent()">
+
+    <script>
+
+        function clickEvent() {
+            alert("Button Clicked");
+        }
+
+        function doubleClickEvent() {
+            alert("Button Double Clicked");
+        }
+
+        function mouseOverEvent() {
+            document.getElementById("box").style.backgroundColor = "yellow";
+        }
+
+        function mouseOutEvent() {
+            document.getElementById("box").style.backgroundColor = "lightblue";
+        }
+
+        function keyDownEvent() {
+            console.log("Key Pressed");
+        }
+
+        function keyUpEvent() {
+            console.log("Key Released");
+        }
+
+        function changeEvent(selectBox) {
+            alert("Selected: " + selectBox.value);
+        }
+
+        function focusEvent() {
+            console.log("Input Focused");
+        }
+
+        function blurEvent() {
+            console.log("Input Lost Focus");
+        }
+
+        // Page Load Event
+        window.onload = function () {
+            console.log("Page Loaded");
+        };
+
+    </script>
+
+</body>
+</html>
+
+
+<!---
+Common HTML Events
+Event	Descriptiononclick	Mouse click
+ondblclick	Double click
+onmouseover	Mouse enters element
+onmouseout	Mouse leaves element
+onkeydown	Key pressed
+onkeyup	Key released
+onchange	Value changes
+onfocus	Element gets focus
+onblur	Element loses focus
+onsubmit	Form submitted
+onload	Page loaded
+onresize	Window resized
+onscroll	Page scrolled
+
+-->
