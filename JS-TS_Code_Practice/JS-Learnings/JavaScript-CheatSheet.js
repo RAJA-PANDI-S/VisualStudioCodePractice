@@ -605,3 +605,23 @@ userObj.show();
 // =====================================================
 // END OF JAVASCRIPT CHEAT SHEET
 // =====================================================
+
+/*
+Learning Order
+Variables (var, let, const)
+Data Types
+Arrays & Objects
+Functions
+Arrow Functions
+Array Methods (map, filter, reduce)
+ES6 Features
+Classes & Inheritance
+Promises
+Async/Await
+Closures
+Modules
+TypeScript
+
+Once you're comfortable with this JavaScript cheat sheet, the TypeScript version you 
+requested earlier will feel much easier because TypeScript is essentially JavaScript + static typing.
+*/

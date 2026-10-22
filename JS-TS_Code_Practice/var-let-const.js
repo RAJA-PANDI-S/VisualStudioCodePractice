@@ -11,7 +11,6 @@ var city = "Mumbai";
 
 // ❌Function-scoped, not block-scoped
 
-JavaScript
 if (true) {
 var x = 10;
 }
@@ -22,7 +21,6 @@ console.log(x); // 10
 
 // ========================================================================
 
-Features
 
 //✅ Can be reassigned
 
@@ -32,16 +30,15 @@ count = 2;
 //❌ Cannot be redeclared in the same scope
 
 let count1 = 1;
-let count1 = 2; // Error
+//let count1 = 2; // Error
 
 //✅ Block-scoped
 
-JavaScript
 if (true) {
 let y = 20;
 }
 
-console.log(y); // Error
+//console.log(y); // Error
 
 
 //y exists only inside the if block.
@@ -50,25 +47,22 @@ console.log(y); // Error
 //❌ Cannot be reassigned
 
 const PI = 3.14;
-PI = 3.14159; // Error
+//PI = 3.14159; // Error
 
 //❌ Cannot be redeclared
 
 const PIv = 3.14;
-const PIv = 3.14159; // Error
+//const PIv = 3.14159; // Error
 
 //✅ Block-scoped
 
-JavaScript
 if (true) {
 const z = 50;
 }
 
-console.log(z); // Error
+//console.log(z); // Error
 
 // --> const prevents reassignment of the variable, not modification of object properties.
-
-JavaScript
 const person = {
 name: "Varshini"
 };

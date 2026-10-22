@@ -1,0 +1,1 @@
+Playwright JS/TS prerequisite topics. Each JS file contains a short definition and sample code.

@@ -442,9 +442,9 @@ console.log(response);
 
 let text: any = "TypeScript";
 
-let length: number = (text as string).length;
+let textlength: number = (text as string).length;
 
-console.log(length);
+console.log(textlength);
 
 
 // =====================================================
