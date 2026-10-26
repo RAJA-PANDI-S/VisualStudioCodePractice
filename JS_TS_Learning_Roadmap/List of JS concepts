@@ -1,0 +1,1754 @@
+Complete JavaScript Topics & Concepts Checklist
+This is a comprehensive JavaScript learning roadmap, from beginner fundamentals to advanced concepts, browser development, Node.js, and 
+modern JavaScript (ES6+).
+
+1. JavaScript Fundamentals
+- Introduction to JavaScript
+- History and Evolution of JavaScript
+- JavaScript Features
+- JavaScript vs Java
+- JavaScript vs TypeScript
+- JavaScript Engines
+- JavaScript Runtime Environments
+- Client-Side vs Server-Side JavaScript
+- ECMAScript Standards
+- Setting Up the Development Environment
+- Including JavaScript in HTML
+- Internal, External, and Inline JavaScript
+- Strict Mode
+- JavaScript Syntax
+- Statements and Expressions
+- Comments
+- Identifiers
+- Keywords and Reserved Words
+- Naming Conventions
+- Semicolons and Automatic Semicolon Insertion
+- Case Sensitivity
+
+2. Variables and Data Types
+- Variables
+- var
+- let
+- const
+- Variable Declaration, Initialization, and Assignment
+- Variable Reassignment
+- Primitive Data Types
+- Number
+- String
+- Boolean
+- Undefined
+- Null
+- BigInt
+- Symbol
+- Non-Primitive Data Types
+- Objects
+- Arrays
+- Functions
+- Dynamic Typing
+- Static vs Dynamic Typing
+- Type Checking
+- typeof Operator
+- instanceof Operator
+- Type Coercion
+- Implicit Type Conversion
+- Explicit Type Conversion
+- Truthy and Falsy Values
+- NaN
+- Infinity and -Infinity
+- null vs undefined
+- Pass-by-Value and Object References
+
+
+3. Operators
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Equality Operators
+- Strict Equality (===)
+- Loose Equality (==)
+- Logical Operators
+- Logical AND (&&)
+- Logical OR (||)
+- Logical NOT (!)
+- Nullish Coalescing (??)
+- Optional Chaining (?.)
+- Ternary Operator
+- Unary Operators
+- Increment and Decrement
+- Bitwise Operators
+- Shift Operators
+- String Operators
+- in Operator
+- delete Operator
+- new Operator
+- void Operator
+- typeof Operator
+- Operator Precedence
+- Operator Associativity
+- Short-Circuit Evaluation
+- Nullish Coalescing vs Logical OR
+
+
+4. Control Flow
+- if Statement
+- if...else
+- else if
+- Nested Conditions
+- switch Statement
+- case and default
+- Fall-Through Behavior
+- Conditional Expressions
+- break Statement
+- continue Statement
+- Labeled Statements
+- Empty Statements
+- Block Statements
+
+
+5. Loops and Iteration
+- for Loop
+- while Loop
+- do...while Loop
+- Nested Loops
+- for...in Loop
+- for...of Loop
+- for await...of Loop
+- break and continue
+- Infinite Loops
+- Loop Scope
+- Iterables
+- Iterators
+- Iterator Protocol
+- Iterable Protocol
+- Generators
+- Generator Functions
+- Generator Objects
+- Custom Iterators
+- Custom Iterables
+
+
+6. Strings
+- String Creation
+- String Literals
+- String Constructors
+- String Immutability
+- String Indexing
+- String Length
+- Escape Sequences
+- Template Literals
+- String Interpolation
+- Multiline Strings
+- Tagged Template Literals
+- String Concatenation
+- String Comparison
+- String Methods
+- charAt()
+- at()
+- includes()
+- indexOf()
+- lastIndexOf()
+- slice()
+- substring()
+- split()
+- replace()
+- replaceAll()
+- toUpperCase()
+- toLowerCase()
+- trim()
+- trimStart()
+- trimEnd()
+- startsWith()
+- endsWith()
+- padStart()
+- padEnd()
+- repeat()
+- match()
+- matchAll()
+- search()
+- String.raw()
+- Unicode and UTF-16
+
+
+7. Numbers and Mathematics
+- Number Literals
+- Integer and Floating-Point Numbers
+- Number Precision
+- Floating-Point Errors
+- Number() Conversion
+- parseInt()
+- parseFloat()
+- isNaN()
+- Number.isNaN()
+- Number.isFinite()
+- Number.isInteger()
+- Number.isSafeInteger()
+- Number.MAX_VALUE
+- Number.MIN_VALUE
+- Number.MAX_SAFE_INTEGER
+- Number.EPSILON
+- Number Formatting
+- Exponential Notation
+- Binary, Octal, Decimal, and Hexadecimal
+- BigInt
+- BigInt Arithmetic
+- BigInt Limitations
+- Math Object
+- Math.round()
+- Math.floor()
+- Math.ceil()
+- Math.trunc()
+- Math.random()
+- Math.abs()
+- Math.max()
+- Math.min()
+- Math.pow()
+- Math.sqrt()
+- Math.cbrt()
+- Math.sign()
+- Math.log()
+- Math.exp()
+- Math.sin(), Math.cos(), and Math.tan()
+
+
+8. Arrays
+- Array Creation
+- Array Literals
+- Array Constructors
+- Array Indexing
+- Array Length
+- Sparse Arrays
+- Multidimensional Arrays
+- Nested Arrays
+- Array Destructuring
+- Array Copying
+- Shallow Copy
+- Deep Copy
+- Array Mutability
+- Array References
+- Array Methods
+- push()
+- pop()
+- shift()
+- unshift()
+- splice()
+- slice()
+- concat()
+- join()
+- indexOf()
+- lastIndexOf()
+- includes()
+- find()
+- findIndex()
+- findLast()
+- findLastIndex()
+- filter()
+- map()
+- reduce()
+- reduceRight()
+- forEach()
+- some()
+- every()
+- sort()
+- toSorted()
+- reverse()
+- toReversed()
+- fill()
+- copyWithin()
+- flat()
+- flatMap()
+- at()
+- Array.from()
+- Array.of()
+- Array.isArray()
+- Array Iterators
+- Array-Like Objects
+- Typed Arrays
+- ArrayBuffer
+- DataView
+
+
+9. Objects
+- Object Fundamentals
+- Object Literals
+- Object Constructors
+- Object Properties
+- Property Keys
+- Property Values
+- Dot Notation
+- Bracket Notation
+- Property Access
+- Property Assignment
+- Computed Property Names
+- Property Shorthand
+- Method Shorthand
+- Nested Objects
+- Object References
+- Object Mutability
+- Object Destructuring
+- Object Spread
+- Object Rest Properties
+- Property Existence Checks
+- in Operator
+- Object.hasOwn()
+- Object.keys()
+- Object.values()
+- Object.entries()
+- Object.fromEntries()
+- Object.assign()
+- Object.create()
+- Object.freeze()
+- Object.seal()
+- Object.preventExtensions()
+- Object.is()
+- Object.getOwnPropertyNames()
+- Object.getOwnPropertySymbols()
+- Property Descriptors
+- Getters and Setters
+- Computed Properties
+- Property Enumerability
+- Own vs Inherited Properties
+- Shallow vs Deep Cloning
+- Optional Chaining with Objects
+
+
+10. Functions
+- Function Fundamentals
+- Function Declarations
+- Function Expressions
+- Anonymous Functions
+- Named Function Expressions
+- Arrow Functions
+- Parameters and Arguments
+- Default Parameters
+- Rest Parameters
+- Return Statements
+- Returning Multiple Values
+- Callback Functions
+- Higher-Order Functions
+- First-Class Functions
+- Pure Functions
+- Impure Functions
+- Anonymous Callbacks
+- Immediately Invoked Function Expressions (IIFE)
+- Nested Functions
+- Function Scope
+- Function Hoisting
+- Function Parameters vs Arguments
+- Pass-by-Value
+- Recursion
+- Mutual Recursion
+- Function Overloading Patterns
+- arguments Object
+- call()
+- apply()
+- bind()
+- Function Currying
+- Partial Application
+- Function Composition
+- Memoization
+- Debouncing
+- Throttling
+- Tail Call Optimization
+- Closures
+- Lexical Environment
+- Lexical Scope
+- Dynamic vs Lexical Scope
+- this Keyword
+- this in Regular Functions
+- this in Arrow Functions
+- this in Methods
+- this in Constructors
+- Explicit this Binding
+- Function Context
+
+
+11. Scope and Hoisting
+- Global Scope
+- Function Scope
+- Block Scope
+- Module Scope
+- Lexical Scope
+- Scope Chain
+- Variable Shadowing
+- Illegal Shadowing
+- Hoisting
+- Variable Hoisting
+- Function Hoisting
+- var Hoisting
+- let and const Hoisting
+- Temporal Dead Zone
+- Global Object
+- Global Execution Context
+- Function Execution Context
+- Execution Context Creation
+- Execution Context Lifecycle
+- Call Stack
+- Lexical Environment
+- Environment Records
+- Closures and Scope
+
+
+12. ES6+ and Modern JavaScript
+- ECMAScript 2015 (ES6)
+- let and const
+- Arrow Functions
+- Template Literals
+- Destructuring
+- Default Parameters
+- Rest Parameters
+- Spread Syntax
+- Enhanced Object Literals
+- Computed Property Names
+- Classes
+- Modules
+- Promises
+- Iterators
+- Generators
+- Symbols
+- Map
+- Set
+- WeakMap
+- WeakSet
+- Proxy
+- Reflect
+- Optional Chaining
+- Nullish Coalescing
+- Logical Assignment Operators
+- Numeric Separators
+- BigInt
+- Private Class Fields
+- Static Class Fields
+- Public Class Fields
+- Top-Level await
+- Dynamic import()
+- import.meta
+- Object.groupBy()
+- Promise.withResolvers()
+- Modern Array Methods
+- Modern Object Methods
+- Modern String Methods
+- ECMAScript Proposals and New Features
+
+
+13. Object-Oriented Programming (OOP)
+- OOP Fundamentals
+- Classes and Objects
+- Constructor Functions
+- Class Declarations
+- Class Expressions
+- Constructors
+- Instance Properties
+- Instance Methods
+- Static Properties
+- Static Methods
+- Getters and Setters
+- Inheritance
+- Prototypal Inheritance
+- Class Inheritance
+- extends Keyword
+- super Keyword
+- Encapsulation
+- Abstraction
+- Polymorphism
+- Method Overriding
+- Method Overloading Patterns
+- Composition
+- Aggregation
+- Association
+- Object Composition vs Inheritance
+- Private Fields
+- Private Methods
+- Public Fields
+- Protected-Style Conventions
+- Mixins
+- Factory Functions
+- Constructor Patterns
+- SOLID Principles in JavaScript
+
+
+14. Prototypes and Inheritance
+- Prototype
+- Prototype Chain
+- Object.prototype
+- Function.prototype
+- Array.prototype
+- __proto__
+- Object.getPrototypeOf()
+- Object.setPrototypeOf()
+- Object.create()
+- Constructor prototype
+- Prototype Inheritance
+- Property Lookup
+- Inherited Properties
+- Own Properties
+- Shadowing Inherited Properties
+- Prototypal Delegation
+- Prototype Pollution
+- Classes vs Prototypes
+
+
+15. Asynchronous JavaScript
+- Synchronous vs Asynchronous Programming
+- Blocking vs Non-Blocking Operations
+- Callbacks
+- Callback Functions
+- Callback Hell
+- Inversion of Control
+- Promises
+- Promise States
+- Promise Chaining
+- Promise Resolution and Rejection
+- .then()
+- .catch()
+- .finally()
+- Promise.resolve()
+- Promise.reject()
+- Promise.all()
+- Promise.allSettled()
+- Promise.race()
+- Promise.any()
+- async Functions
+- await Keyword
+- Error Handling in Async Functions
+- Sequential vs Parallel Execution
+- Concurrent vs Parallel Programming
+- Top-Level await
+- Event Loop
+- Call Stack
+- Task Queue
+- Microtask Queue
+- Macrotasks
+- Rendering Queue
+- Execution Order
+- Timers
+- setTimeout()
+- setInterval()
+- clearTimeout()
+- clearInterval()
+- queueMicrotask()
+- requestAnimationFrame()
+- requestIdleCallback()
+- AbortController
+- Cancellation Patterns
+- Async Iterators
+- Async Generators
+- for await...of
+- Race Conditions
+- Promise Combinators
+- Concurrency Control
+
+
+16. Error Handling and Debugging
+- Syntax Errors
+- Runtime Errors
+- Logical Errors
+- try...catch
+- finally
+- throw Statement
+- Error Objects
+- Error
+- TypeError
+- ReferenceError
+- SyntaxError
+- RangeError
+- URIError
+- EvalError
+- AggregateError
+- Custom Errors
+- Error Subclassing
+- Error Propagation
+- Stack Traces
+- Promise Error Handling
+- Async Error Handling
+- Unhandled Promise Rejections
+- Debugging Fundamentals
+- Browser DevTools
+- Breakpoints
+- Conditional Breakpoints
+- Watch Expressions
+- Call Stack Inspection
+- Source Maps
+- Logging and Tracing
+
+
+17. DOM (Document Object Model)
+- DOM Fundamentals
+- DOM Tree
+- Document Object
+- Window Object
+- Node Types
+- Element Nodes
+- Text Nodes
+- Attribute Nodes
+- Node vs Element
+- Selecting Elements
+- getElementById()
+- getElementsByClassName()
+- getElementsByTagName()
+- querySelector()
+- querySelectorAll()
+- Traversing the DOM
+- Parent and Child Nodes
+- Sibling Elements
+- Creating Elements
+- createElement()
+- createTextNode()
+- append()
+- appendChild()
+- prepend()
+- insertBefore()
+- remove()
+- removeChild()
+- replaceWith()
+- replaceChild()
+- Modifying Text Content
+- innerHTML
+- innerText
+- textContent
+- Attributes
+- getAttribute()
+- setAttribute()
+- removeAttribute()
+- classList
+- className
+- Inline Styles
+- style Property
+- getComputedStyle()
+- DOM Collections
+- Live vs Static Collections
+- Document Fragments
+- Cloning Nodes
+- DOM Performance
+- Reflow and Repaint
+- Shadow DOM
+- MutationObserver
+- IntersectionObserver
+- ResizeObserver
+
+
+18. Events and Event Handling
+- Event Fundamentals
+- Event Listeners
+- addEventListener()
+- removeEventListener()
+- Event Objects
+- Event Types
+- Mouse Events
+- Keyboard Events
+- Input Events
+- Form Events
+- Focus Events
+- Clipboard Events
+- Drag-and-Drop Events
+- Touch Events
+- Pointer Events
+- Wheel Events
+- Scroll Events
+- Load Events
+- Resize Events
+- Submit Events
+- Change Events
+- Event Bubbling
+- Event Capturing
+- Event Propagation
+- Event Delegation
+- event.target
+- event.currentTarget
+- preventDefault()
+- stopPropagation()
+- stopImmediatePropagation()
+- Custom Events
+- dispatchEvent()
+- Passive Event Listeners
+- Once-Only Listeners
+- Abortable Event Listeners
+- Event Loop and Event Timing
+
+
+19. Browser APIs and Web Platform
+- Browser Object Model (BOM)
+- window Object
+- document Object
+- navigator Object
+- location Object
+- history Object
+- screen Object
+- console Object
+- alert()
+- confirm()
+- prompt()
+- open()
+- close()
+- URL API
+- URLSearchParams
+- Web Storage API
+- Local Storage
+- Session Storage
+- Cookies
+- Cookie Security
+- IndexedDB
+- Cache API
+- Fetch API
+- XMLHttpRequest
+- Clipboard API
+- Geolocation API
+- Notifications API
+- Web Workers
+- Service Workers
+- Shared Workers
+- BroadcastChannel API
+- WebSocket API
+- Server-Sent Events
+- WebRTC
+- Web Audio API
+- Canvas API
+- SVG Manipulation
+- Fullscreen API
+- Page Visibility API
+- History API
+- File API
+- FileReader API
+- Blob
+- File
+- Streams API
+- Compression Streams
+- Web Crypto API
+- Web Components
+- Custom Elements
+- Shadow DOM
+- HTML Templates
+- Drag-and-Drop API
+- Pointer Lock API
+- Web Animations API
+- Performance API
+- PerformanceObserver
+- ResizeObserver
+- IntersectionObserver
+- MutationObserver
+- Permissions API
+- MediaDevices API
+- Media Capture API
+- Payment Request API
+- Web Share API
+- Beacon API
+- Background Sync
+- Push API
+
+
+20. Forms and Validation
+- Form Elements
+- Form Selection
+- Reading Input Values
+- Updating Input Values
+- Form Submission
+- Form Submit Events
+- Client-Side Validation
+- HTML5 Form Validation
+- JavaScript Validation
+- Required Field Validation
+- Email Validation
+- Password Validation
+- Number Validation
+- Pattern Validation
+- Custom Validation
+- checkValidity()
+- reportValidity()
+- setCustomValidity()
+- FormData API
+- Form Reset
+- File Upload Handling
+- Multiple File Uploads
+- Form Serialization
+- Asynchronous Form Submission
+- Dynamic Forms
+- Accessibility in Forms
+
+
+21. Regular Expressions (RegExp)
+- RegExp Fundamentals
+- Regex Literals
+- RegExp Constructor
+- Pattern Matching
+- Character Classes
+- Character Sets
+- Character Ranges
+- Shorthand Character Classes
+- Quantifiers
+- Greedy Matching
+- Lazy Matching
+- Anchors
+- Boundaries
+- Groups
+- Capturing Groups
+- Non-Capturing Groups
+- Named Capturing Groups
+- Alternation
+- Lookahead
+- Negative Lookahead
+- Lookbehind
+- Negative Lookbehind
+- Flags
+- Global Flag
+- Case-Insensitive Flag
+- Multiline Flag
+- Dot-All Flag
+- Unicode Flag
+- Sticky Flag
+- Unicode Sets Flag
+- test()
+- exec()
+- Regex with match()
+- Regex with matchAll()
+- Regex with replace()
+- Regex with search()
+- Regex with split()
+- Escaping Special Characters
+- Regex Validation
+- Regex Performance
+- Catastrophic Backtracking
+
+
+22. Modules and Code Organization
+- JavaScript Modules
+- ES Modules
+- Named Exports
+- Default Exports
+- Named Imports
+- Default Imports
+- Namespace Imports
+- Re-Exports
+- Module Aliases
+- Side-Effect Imports
+- Dynamic Imports
+- import.meta
+- Module Scope
+- Module Evaluation
+- Module Caching
+- Circular Dependencies
+- Live Bindings
+- Strict Mode in Modules
+- CommonJS
+- require()
+- module.exports
+- exports
+- ES Modules vs CommonJS
+- UMD
+- AMD
+- Module Bundling
+- Code Splitting
+- Lazy Loading
+- Tree Shaking
+- Dependency Graphs
+- Barrel Files
+
+
+23. Data Structures
+- Arrays
+- Objects
+- Strings
+- Stacks
+- Queues
+- Linked Lists
+- Singly Linked Lists
+- Doubly Linked Lists
+- Circular Linked Lists
+- Hash Tables
+- Maps
+- Sets
+- WeakMaps
+- WeakSets
+- Trees
+- Binary Trees
+- Binary Search Trees
+- Heaps
+- Priority Queues
+- Graphs
+- Directed Graphs
+- Undirected Graphs
+- Tries
+- Deques
+- Matrices
+- Typed Arrays
+- ArrayBuffers
+- Choosing the Right Data Structure
+
+
+24. Algorithms and Problem Solving
+- Time Complexity
+- Space Complexity
+- Big O Notation
+- Big Omega Notation
+- Big Theta Notation
+- Linear Search
+- Binary Search
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+- Counting Sort
+- Radix Sort
+- Recursion
+- Backtracking
+- Two-Pointer Technique
+- Sliding Window
+- Prefix Sums
+- Hashing
+- Frequency Counting
+- Fast and Slow Pointers
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Tree Traversal
+- Graph Traversal
+- Dijkstra's Algorithm
+- Bellman-Ford Algorithm
+- Floyd-Warshall Algorithm
+- Topological Sorting
+- Greedy Algorithms
+- Dynamic Programming
+- Memoization
+- Tabulation
+- Divide and Conquer
+- Bit Manipulation
+- Combinatorics
+- String Algorithms
+- Interval Problems
+- Union-Find
+- Monotonic Stack
+- Monotonic Queue
+- Sliding-Window Algorithms
+
+
+25. Maps, Sets, and Advanced Built-ins
+- Map
+- Map Keys and Values
+- Map Iteration
+- Map Methods
+- WeakMap
+- Weak References
+- Set
+- Set Operations
+- WeakSet
+- WeakSet Limitations
+- Symbol
+- Well-Known Symbols
+- Global Symbol Registry
+- Symbol.iterator
+- Symbol.asyncIterator
+- Symbol.toPrimitive
+- Symbol.toStringTag
+- Proxy
+- Proxy Traps
+- Reflect
+- Reflect Methods
+- WeakRef
+- FinalizationRegistry
+- JSON
+- JSON.stringify()
+- JSON.parse()
+- Structured Cloning
+- structuredClone()
+- Intl API
+- Internationalization
+- Locale-Aware Number Formatting
+- Locale-Aware Date Formatting
+- Collation and Sorting
+- AggregateError
+- SuppressedError
+
+
+26. Date and Time
+- Date Fundamentals
+- Creating Date Objects
+- Date Constructors
+- Timestamps
+- Unix Time
+- Epoch Time
+- UTC
+- Local Time
+- Time Zones
+- Daylight Saving Time
+- Date Parsing
+- Date Formatting
+- Date Arithmetic
+- Date Comparison
+- Date Getters
+- Date Setters
+- Date.now()
+- Date.parse()
+- toISOString()
+- toLocaleString()
+- Intl.DateTimeFormat
+- Invalid Dates
+- Date Serialization
+- Date Handling Pitfalls
+- Temporal API
+- Temporal.PlainDate
+- Temporal.PlainTime
+- Temporal.Instant
+- Temporal.ZonedDateTime
+
+
+27. JSON and Data Handling
+- JSON Fundamentals
+- JSON Syntax
+- JSON Data Types
+- JSON Serialization
+- JSON Deserialization
+- JSON.stringify()
+- JSON.parse()
+- Replacer Functions
+- Reviver Functions
+- JSON Limitations
+- Handling Missing Properties
+- Data Validation
+- Data Transformation
+- Data Normalization
+- Deep Cloning
+- Structured Clone Algorithm
+- Parsing External Data
+- Handling Malformed JSON
+- Serialization of Dates
+- Serialization of Maps and Sets
+
+
+28. HTTP, APIs, and Networking
+- HTTP Fundamentals
+- HTTPS
+- HTTP Methods
+- GET
+- POST
+- PUT
+- PATCH
+- DELETE
+- HTTP Status Codes
+- Request Headers
+- Response Headers
+- Request Bodies
+- Response Bodies
+- REST APIs
+- RESTful Principles
+- Fetch API
+- fetch()
+- Response Object
+- Request Object
+- Headers Object
+- JSON API Requests
+- Query Parameters
+- URL Parameters
+- Authentication
+- Authorization
+- API Keys
+- Bearer Tokens
+- OAuth 2.0
+- JWT
+- Cookies and Sessions
+- CORS
+- Preflight Requests
+- Same-Origin Policy
+- Content Security Policy
+- Rate Limiting
+- Pagination
+- Filtering and Sorting
+- Retry Logic
+- Exponential Backoff
+- Request Cancellation
+- AbortController
+- Timeouts
+- Network Error Handling
+- WebSockets
+- Server-Sent Events
+- GraphQL
+- Webhooks
+- API Client Design
+
+
+
+29. Node.js Fundamentals
+- Introduction to Node.js
+- Node.js Architecture
+- Node.js Runtime
+- V8 Engine
+- Libuv
+- Event Loop in Node.js
+- Node.js vs Browser JavaScript
+- Installing Node.js
+- npm
+- npx
+- Core Modules
+- process
+- global
+- Buffer
+- path
+- fs
+- os
+- http
+- https
+- url
+- events
+- stream
+- crypto
+- util
+- timers
+- worker_threads
+- child_process
+- cluster
+- readline
+- assert
+- zlib
+- File System Operations
+- File Reading and Writing
+- Streams and Buffers
+- EventEmitter
+- Process Arguments
+- Environment Variables
+- process.env
+- Standard Input and Output
+- Module Systems in Node.js
+- CommonJS
+- ES Modules
+- Package Management
+- package.json
+- package-lock.json
+- npm Scripts
+- Semantic Versioning
+- Dependency Management
+- Global vs Local Packages
+- Node.js Error Handling
+- Graceful Shutdown
+- Signals and Process Management
+
+
+30. Backend Development with JavaScript
+- Server Fundamentals
+- Client-Server Architecture
+- Creating HTTP Servers
+- Routing
+- Middleware
+- Request and Response Handling
+- REST API Development
+- CRUD Operations
+- Express.js
+- Fastify
+- NestJS
+- Koa
+- Hono
+- Request Validation
+- Authentication
+- Authorization
+- Session Management
+- JWT Authentication
+- Password Hashing
+- Database Integration
+- SQL Databases
+- NoSQL Databases
+- MongoDB
+- PostgreSQL
+- MySQL
+- Redis
+- Object-Relational Mapping (ORM)
+- Prisma
+- Sequelize
+- Drizzle ORM
+- Database Migrations
+- Transactions
+- Connection Pooling
+- Pagination
+- File Uploads
+- Email Integration
+- Logging
+- Error Middleware
+- API Versioning
+- API Documentation
+- OpenAPI
+- WebSockets
+- Background Jobs
+- Queues
+- Caching
+- Rate Limiting
+- Security Headers
+- Graceful Shutdown
+
+
+31. Frontend Development Ecosystem
+- HTML Integration
+- CSS Integration
+- Responsive Web Design
+- DOM-Based Development
+- Component-Based Architecture
+- Single-Page Applications (SPA)
+- Multi-Page Applications (MPA)
+- Client-Side Routing
+- State Management
+- Form Management
+- UI Rendering
+- Virtual DOM
+- Hydration
+- Server-Side Rendering (SSR)
+- Static Site Generation (SSG)
+- Incremental Static Regeneration (ISR)
+- Progressive Web Apps (PWA)
+- Accessibility
+- Web Performance
+- Design Systems
+- Frontend Architecture
+- Build Tools
+- Vite
+- Webpack
+- Rollup
+- esbuild
+- Parcel
+- Babel
+- SWC
+- PostCSS
+- CSS Modules
+
+
+32. JavaScript Frameworks and Libraries
+- React
+- React Hooks
+- React Components
+- React Props and State
+- React Context
+- React Router
+- Redux
+- Redux Toolkit
+- Zustand
+- MobX
+- TanStack Query
+- Next.js
+- Remix / React Router Framework
+- Vue.js
+- Vue Composition API
+- Pinia
+- Nuxt
+- Angular
+- Angular Components
+- Angular Services
+- RxJS
+- Svelte
+- SvelteKit
+- SolidJS
+- Astro
+- Qwik
+- Lit
+- jQuery
+- Lodash
+- Underscore.js
+- D3.js
+- Three.js
+- Chart.js
+- GSAP
+- Framer Motion / Motion
+- Express.js
+- NestJS
+- Fastify
+- Socket.IO
+
+
+33. Functional Programming
+- Functional Programming Fundamentals
+- Pure Functions
+- Immutability
+- Referential Transparency
+- First-Class Functions
+- Higher-Order Functions
+- Function Composition
+- Currying
+- Partial Application
+- Closures
+- Declarative Programming
+- Imperative vs Declarative Programming
+- Map, Filter, and Reduce
+- Recursion
+- Side Effects
+- Function Pipelines
+- Point-Free Style
+- Functors
+- Monads
+- Maybe / Option Types
+- Either / Result Types
+- Algebraic Data Types
+- Functional Error Handling
+- Immutable Data Structures
+- Transducers
+
+
+34. Design Patterns
+- Creational Patterns
+- Constructor Pattern
+- Factory Pattern
+- Abstract Factory Pattern
+- Singleton Pattern
+- Builder Pattern
+- Prototype Pattern
+- Structural Patterns
+- Adapter Pattern
+- Decorator Pattern
+- Facade Pattern
+- Proxy Pattern
+- Composite Pattern
+- Bridge Pattern
+- Flyweight Pattern
+- Behavioral Patterns
+- Observer Pattern
+- Pub/Sub Pattern
+- Strategy Pattern
+- Command Pattern
+- Iterator Pattern
+- Mediator Pattern
+- State Pattern
+- Template Method Pattern
+- Chain of Responsibility
+- Visitor Pattern
+- Module Pattern
+- Revealing Module Pattern
+- Dependency Injection
+- Repository Pattern
+- MVC
+- MVP
+- MVVM
+- Event-Driven Architecture
+- Reactive Programming
+
+
+35. Memory Management and Performance
+- Memory Fundamentals
+- Stack Memory
+- Heap Memory
+- Memory Allocation
+- Garbage Collection
+- Reference Counting
+- Mark-and-Sweep
+- Generational Garbage Collection
+- Reachability
+- Memory Leaks
+- Circular References
+- Closures and Memory
+- Weak References
+- Performance Profiling
+- CPU Profiling
+- Memory Profiling
+- Browser Performance Tools
+- Node.js Profiling
+- Lazy Evaluation
+- Lazy Loading
+- Code Splitting
+- Tree Shaking
+- Memoization
+- DOM Performance
+- Event Listener Optimization
+- Rendering Performance
+- Debouncing
+- Throttling
+- Avoiding Unnecessary Allocations
+- Web Vitals
+- Core Web Vitals
+- Long Tasks
+- Performance APIs
+- Benchmarking
+- Bundle Size Optimization
+
+
+36. Security
+- JavaScript Security Fundamentals
+- Cross-Site Scripting (XSS)
+- DOM-Based XSS
+- Cross-Site Request Forgery (CSRF)
+- SQL Injection
+- NoSQL Injection
+- Prototype Pollution
+- Command Injection
+- Path Traversal
+- Remote Code Execution Risks
+- eval() Risks
+- Function() Constructor Risks
+- Content Security Policy
+- Same-Origin Policy
+- CORS
+- Secure Cookies
+- HttpOnly
+- Secure Cookie Flag
+- SameSite Cookie Attribute
+- Authentication vs Authorization
+- Password Hashing
+- Secrets Management
+- Environment Variables
+- JWT Security
+- OAuth Security
+- Input Validation
+- Output Encoding
+- Dependency Vulnerabilities
+- Supply Chain Security
+- npm Audit
+- Dependency Pinning
+- Rate Limiting
+- Request Forgery
+- Open Redirects
+- Clickjacking
+- HTTPS and TLS
+- Secure API Design
+- Least Privilege
+- Secure Coding Practices
+
+
+37. Testing
+- Software Testing Fundamentals
+- Unit Testing
+- Integration Testing
+- End-to-End Testing
+- Functional Testing
+- Regression Testing
+- Smoke Testing
+- Acceptance Testing
+- Test-Driven Development (TDD)
+- Behavior-Driven Development (BDD)
+- Mocking
+- Stubbing
+- Spying
+- Fixtures
+- Test Coverage
+- Code Coverage
+- Branch Coverage
+- Statement Coverage
+- Jest
+- Vitest
+- Mocha
+- Chai
+- Jasmine
+- Sinon
+- Testing Library
+- Playwright
+- Cypress
+- Puppeteer
+- Node.js Test Runner
+- Snapshot Testing
+- Async Testing
+- API Testing
+- Component Testing
+- Browser Testing
+- Accessibility Testing
+- Visual Regression Testing
+- Load Testing
+- Mutation Testing
+
+
+38. Tooling and Developer Workflow
+- Browser Developer Tools
+- Node.js Debugger
+- VS Code
+- npm
+- npx
+- pnpm
+- Yarn
+- Package Managers
+- Git
+- GitHub
+- GitLab
+- Branching and Merging
+- Pull Requests
+- Code Reviews
+- ESLint
+- Prettier
+- Biome
+- JSDoc
+- Source Maps
+- Babel
+- TypeScript Compiler
+- Build Pipelines
+- Bundlers
+- Linters
+- Formatters
+- Environment Configuration
+- .env Files
+- Git Hooks
+- Husky
+- lint-staged
+- Commit Conventions
+- Semantic Versioning
+- Continuous Integration
+- Continuous Deployment
+- GitHub Actions
+- Docker
+- Containerization
+- Deployment
+- Monitoring
+- Logging
+- Error Tracking
+- Feature Flags
+
+
+39. TypeScript and Type Systems
+- JavaScript vs TypeScript
+- Type Annotations
+- Type Inference
+- Primitive Types
+- Object Types
+- Array Types
+- Tuple Types
+- Union Types
+- Intersection Types
+- Literal Types
+- Type Aliases
+- Interfaces
+- Enums
+- Functions and Types
+- Optional Properties
+- Readonly Properties
+- Generics
+- Generic Constraints
+- keyof
+- typeof in TypeScript
+- Indexed Access Types
+- Conditional Types
+- Mapped Types
+- Template Literal Types
+- Utility Types
+- Partial
+- Required
+- Pick
+- Omit
+- Record
+- Exclude
+- Extract
+- NonNullable
+- ReturnType
+- Parameters
+- Awaited
+- Type Narrowing
+- Type Guards
+- Discriminated Unions
+- Type Assertions
+- unknown vs any
+- never
+- Declaration Files
+- Ambient Types
+- Module Resolution
+- Compiler Configuration
+- Strict Type Checking
+- JavaScript Interoperability
+- JSDoc Type Checking
+
+
+40. Advanced Language Internals
+- ECMAScript Specification
+- Lexical Grammar
+- Parsing
+- Abstract Syntax Trees (AST)
+- Abstract Operations
+- Primitive Conversion
+- Type Conversion Algorithms
+- Property Descriptors
+- Property Attributes
+- Internal Slots
+- Internal Methods
+- Execution Contexts
+- Environment Records
+- Lexical Environments
+- Realm Concepts
+- Script vs Module Execution
+- Jobs and Job Queues
+- Promise Jobs
+- Host Environment Integration
+- Event Loop Specifications
+- Completion Records
+- Abrupt Completion
+- Iteration Protocols
+- Iterator Closing
+- Generator Execution
+- Async Function Internals
+- Promise Resolution Procedure
+- Proxy Invariants
+- Reflect Semantics
+- Garbage Collection Concepts
+- JIT Compilation
+- Interpreter vs Compiler
+- Hidden Classes
+- Inline Caching
+- Deoptimization
+- V8 Internals
+- JavaScript Engine Optimization
+
+
+41. Internationalization and Accessibility
+- Unicode
+- UTF-8
+- UTF-16
+- Code Points
+- Grapheme Clusters
+- Unicode Normalization
+- Locale Detection
+- Intl Namespace
+- Intl.NumberFormat
+- Intl.DateTimeFormat
+- Intl.Collator
+- Intl.PluralRules
+- Intl.RelativeTimeFormat
+- Intl.ListFormat
+- Intl.DisplayNames
+- Intl.Segmenter
+- Accessibility Fundamentals
+- Semantic HTML
+- ARIA Attributes
+- Keyboard Navigation
+- Focus Management
+- Screen Reader Compatibility
+- Accessible Event Handling
+- Accessible Forms
+- Color and Contrast
+- Reduced Motion Preferences
+
+
+42. Web Workers and Parallelism
+- Web Workers
+- Dedicated Workers
+- Shared Workers
+- Service Workers
+- Worker Lifecycle
+- postMessage()
+- Message Events
+- Structured Cloning
+- Transferable Objects
+- SharedArrayBuffer
+- Atomics
+- Worker Threads in Node.js
+- Child Processes
+- Cluster Module
+- Message Channels
+- OffscreenCanvas
+- Parallel Computation
+- Race Conditions
+- Synchronization
+- Deadlocks
+- Thread Safety
+- Concurrency vs Parallelism
+
+
+43. Storage and Offline Applications
+- Local Storage
+- Session Storage
+- Cookies
+- IndexedDB
+- Cache API
+- File System Access API
+- Storage Quotas
+- Storage Events
+- Browser Storage Limits
+- Persistent Storage
+- Structured Data Storage
+- Offline-First Architecture
+- Service Worker Caching
+- Cache Strategies
+- Cache-First
+- Network-First
+- Stale-While-Revalidate
+- Background Sync
+- Periodic Background Sync
+- Offline Data Synchronization
+- Conflict Resolution
+- Progressive Web Apps
+- Installable Web Applications
+
+
+44. Graphics, Animation, and Multimedia
+- Canvas 2D API
+- SVG
+- WebGL
+- WebGPU
+- Three.js
+- 2D Graphics
+- 3D Graphics
+- Coordinate Systems
+- Transformations
+- Matrix Mathematics
+- Animation Fundamentals
+- CSS Animations with JavaScript
+- Web Animations API
+- requestAnimationFrame()
+- Easing Functions
+- Physics-Based Animation
+- GSAP
+- AudioContext
+- Web Audio API
+- Media Capture
+- MediaRecorder
+- Media Source Extensions
+- HTML Audio and Video APIs
+- WebRTC
+- Image Processing
+- Video Processing
+- Real-Time Graphics
+
+
+45. Real-World Application Development
+- Calculator Application
+- To-Do List Application
+- Notes Application
+- Expense Tracker
+- Personal Finance Dashboard
+- Weather Application
+- Search Application
+- Pagination System
+- Infinite Scrolling
+- Shopping Cart
+- E-Commerce Application
+- Authentication System
+- Registration and Login
+- Form Builder
+- File Upload Application
+- Chat Application
+- Real-Time Notification System
+- Dashboard Development
+- Admin Panel
+- Blog Application
+- Content Management System
+- REST API Application
+- CRUD Application
+- Task Management Application
+- Kanban Board
+- Data Visualization Dashboard
+- Progressive Web App
+- Full-Stack Application
+- Real-Time Collaboration Tool
+46. Specialized and Emerging Topics
+- Serverless JavaScript
+- Edge Computing
+- Edge Functions
+- Cloud Functions
+- AWS Lambda
+- Cloudflare Workers
+- Deno
+- Bun
+- JavaScript in Embedded Systems
+- Electron
+- Tauri
+- React Native
+- NativeScript
+- Ionic
+- Capacitor
+- Mobile Application Development
+- Desktop Application Development
+- Automation and Scripting
+- Browser Extensions
+- Chrome Extension APIs
+- WebAssembly Integration
+- WebGPU Computing
+- AI Integration in JavaScript
+- Machine Learning with TensorFlow.js
+- ONNX Runtime Web
+- Generative AI APIs
+- Vector Databases
+- Retrieval-Augmented Generation (RAG)
+- AI Agents
+- Blockchain Development
+- Smart Contracts
+- Web3 Libraries
+- Internet of Things (IoT)
+- Robotics with JavaScript
+- Web Components
+- Micro-Frontends
+- Monorepos
+- Microservices
+- Event-Driven Systems
+- Distributed Systems Fundamentals
